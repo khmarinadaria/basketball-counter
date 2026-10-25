@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "numbers";
+    src: url(./src/CursedTimerUlil.ttf);
+}
+
+@font-face {
+    font-family: "verdana";
+    src: url(/src/Verdana-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3 {
+    font-family: "verdana";
+    color: #EEEEEE;
+    font-size: 9vw;
+    text-align: center; 
+}
+
+h1 {
+    font-family: "numbers";
+    color: #F94F6D;
+    background-color: #080001; 
+    font-size: 20vw;
+    text-align:  center;
+    border: 1vw solid black;
+    border-radius: 2vw;
+    margin-top: -3vh;
+    padding: 7vh 12vw 2vh 12vw;
+}
+
+button {
+    font-family: "numbers";
+    color: #9AABD8;
+    border: 0.8vw solid #9AABD8; 
+    border-radius: 2vw;
+    background-color: #1B244A; 
+    margin-top: -7vh;
+    font-size: 6vw;
+    padding: 2.5vh 2vw; 
+}
+
+
+#parent-1 {
+    display: flex;
+    gap: 2vw; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#parent-2 {
+    display: flex;
+    gap: 2vw; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.leader {
+    text-shadow: 
+    2px 2px 4px #FFCC02,
+    2px 2px 4px #FFCC02,
+    2px 2px 4px #FFCC02,
+    2px 2px 4px #FFCC02;
+}
